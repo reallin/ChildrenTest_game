@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/id"
+        style="@style/listview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" />
+
+    <TextView
+        android:id="@+id/shijian"
+        android:layout_width="60dp"
+        android:layout_height="fill_parent"
+         android:gravity="center_vertical"
+        android:text="时间"
+        android:textColor="#040404"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/xingming"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+         android:gravity="center_vertical"
+        android:text="姓名"
+        android:textColor="#040404"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- 创建时间 -->
+
+    <TextView
+        android:id="@+id/xingbie"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="14dp"
+         android:gravity="center_vertical"
+        android:text="性别"
+        android:textColor="#040404"
+        android:textSize="9dp"
+        android:textStyle="bold" />
+    
+      <TextView
+        android:id="@+id/nianling"
+        android:layout_width="30dp"
+        android:layout_height="fill_parent"
+         android:layout_marginRight="14dp"
+         android:gravity="center_vertical"
+        android:text="年龄"
+        android:textColor="#040404"
+        android:textSize="9dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ceshileixing"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+         android:layout_marginLeft="4dp"
+        android:gravity="center_vertical"
+        android:text="测试类型"
+        android:textColor="#040404"
+        android:textSize="9dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ceshijieguo"
+        android:layout_width="60dp"
+        android:layout_height="fill_parent"
+         android:layout_marginLeft="4dp"
+        android:gravity="center_vertical"
+        android:text="测试结果"
+        android:textColor="#040404"
+        android:textSize="9dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

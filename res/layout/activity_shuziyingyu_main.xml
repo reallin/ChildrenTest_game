@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shuziheyingyubg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+          <Button
+              android:id="@+id/button1"
+              android:layout_width="140dp"
+              android:layout_height="40dp"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="83dp"
+              android:background="@drawable/anniubeijing"
+              android:text="开始数字加减游戏"
+              android:textColor="#ba3284"
+              android:textSize="14sp"
+              android:textStyle="bold" />
+
+          <Button
+              android:id="@+id/Button2"
+              android:layout_width="140dp"
+              android:layout_height="40dp"
+              android:layout_alignLeft="@+id/button1"
+              android:layout_below="@+id/button1"
+              android:layout_marginTop="48dp"
+              android:background="@drawable/anniubeijing"
+              android:text="开始英文字母游戏"
+              android:textColor="#ba3284"
+              android:textSize="14sp"
+              android:textStyle="bold" />
+          <Button
+              android:id="@+id/Button3"
+              android:layout_width="140dp"
+              android:layout_height="40dp"
+              android:layout_alignLeft="@id/Button2"
+              android:layout_below="@id/Button2"
+              android:layout_marginTop="48dp"
+              android:background="@drawable/anniubeijing"
+              android:text="游戏时间设置"
+              android:textColor="#ba3284"
+              android:textSize="14sp"
+              android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>

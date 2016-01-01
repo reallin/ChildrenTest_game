@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/zhuyiliceshibg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textview1"
+            style="@style/normalText"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="right"
+            android:background="@drawable/titlebg"
+            android:gravity="center"
+            android:text="注意力测试表规则"
+            android:textColor="#000FFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textview2"
+            style="@style/normalText"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="left"
+            android:textSize="12sp"
+            android:text="       总共有十九道题目，提交之后，一个“√”算1分，0-4分 自动输出：正常；5-7分 自动输出：您的孩子属于轻微注意力不足；8-10分 自动输出：建议您的孩子进行适当的提升注意力能力的训练；10分以上 自动输出：建议您的孩子马上进行提升注意力能力的训练。\n     对于下列的试题，对照自己孩子的表现,符合情况的在方框里打“√”，反之不选。 "
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/ksbtn"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button_green"
+            android:text="开 始 测 试"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

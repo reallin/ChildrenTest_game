@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/noteadd"
+        android:icon="@drawable/add"
+        android:title="添  加"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/notedelete"
+        android:icon="@drawable/delete"
+        android:title="删 除"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:background="@drawable/xunlianyouxiguizebg"
+    android:orientation="vertical" >
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textview2"
+            style="@style/normalText"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="left"
+            android:textSize="12sp"
+            android:text="数字加减游戏规则：\n   儿童将题目中的水果所对应的阿拉伯数字进行加减法运算，在做题目前家长必须告知儿童：每道题都要在停止信号倒计时8S结束之后方可输入答案，并且每题只有5S的答题时间，共十题；\n\n英文字母游戏规则：\n   儿童将题目中的动物所对应的英文字母串填入答题区域并提交，在做题目前家长必须告知儿童：每道题都要在停止信号倒计时8S结束之后方可输入答案，并且每题只有5S的答题时间，共十题；"
+            android:textColor="#000000" />
+    </LinearLayout>
+    
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/wzdlbtn"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn"
+            android:text="我知道了"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

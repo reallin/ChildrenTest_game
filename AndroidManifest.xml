@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myandroid.myapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.myandroid.myapp.IndexActivity"
+            android:label="@string/title_index"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myandroid.myapp.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name="com.myandroid.myapp.UserInfoChangeActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myandroid.myapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.myandroid.myapp.ZhuyiliceshibiaoIndexActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myandroid.myapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.myandroid.myapp.ZhuyiliceshibiaoItemActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myandroid.myapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.myandroid.myapp.XunlianyouxiguizeActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myandroid.myapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.myandroid.myapp.JiazhangxuzhiActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myandroid.myapp.XunlianyouxiguizeActivity" />
+        </activity>
+        <activity
+            android:name="com.myandroid.myapp.ShuziyinyuMainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myandroid.myapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.myandroid.myapp.ShuziyouxiActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myandroid.myapp.ShuziyingyuMainActivity" />
+        </activity>
+        <activity
+            android:name="com.myandroid.myapp.ZimuyouxiActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myandroid.myapp.ShuziyingyuMainActivity" />
+        </activity>
+        <activity
+            android:name="com.myandroid.myapp.XunlianjieguoListActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myandroid.myapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.myandroid.myapp.UserInfoActivity"
+            android:label="@string/title_userinfo"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.myandroid.myapp.IndexActivity" />
+        </activity>
+         <activity
+            android:name="com.myandroid.myapp.SetTimeAcitivity" 
+              android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+
+        </activity>
+        
+    </application>
+
+</manifest>
