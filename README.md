@@ -6,3 +6,7 @@
 
 ## 功能介绍
 主要有两种游戏玩法，时间可设置。
+## 效果图
+![](https://github.com/reallin/github.picture.io/blob/master/Screen1.png)
+![](https://github.com/reallin/github.picture.io/blob/master/Screen2.png)
+![](https://github.com/reallin/github.picture.io/blob/master/Screen3.png)
